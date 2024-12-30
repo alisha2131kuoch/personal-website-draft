@@ -1,0 +1,36 @@
+nav {
+  /* background-color: green; */
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.about-button,
+.projects-button,
+.github-button {
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  border-style: none;
+  background: none;
+
+}
+
+.projects-button {
+  right: 150px;
+
+}
+
+.about-button:hover,
+.projects-button:hover,
+.github-button:hover {
+  color: rgb(46, 147, 255);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.github-button {
+  right: 280px;
+}

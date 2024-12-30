@@ -1,0 +1,55 @@
+.outro {
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 500px;
+
+
+
+}
+
+.outro-line {
+  margin-bottom: 200px;
+}
+
+.outro-content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.contact-info {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  bottom: 0px;
+  margin: 0;
+  /* color: rgba(60, 192, 253, 0.7); */
+
+}
+
+
+
+
+
+.w3r-dot {
+
+
+  /* Comment: Styles the element for the polka dot background pattern */
+  width: 400px;
+  /* Comment: Sets the width of the element */
+  height: 240px;
+  /* Comment: Sets the height of the element */
+  background-color: transparent;
+  /* Comment: Sets the background color of the element */
+  background-image: radial-gradient(#9d9d9d 3%, transparent 11%),
+    /* Comment: Defines a radial gradient for black dots */
+    radial-gradient(#9d9d9d 3%, transparent 11%);
+  /* Comment: Defines a radial gradient for red dots */
+  background-size: 60px 60px;
+  /* Comment: Sets the size of the background dots */
+  background-position: 30 0, 30px 30px;
+  /* Comment: Sets the position of the background dots */
+  background-repeat: repeat;
+  /* Comment: Specifies that the background pattern should repeat */
+}

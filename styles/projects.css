@@ -1,0 +1,78 @@
+.projects {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: horizontal;
+
+
+}
+
+.project-description-container {
+  margin-left: 150px;
+  position: relative;
+  width: 500px;
+
+}
+
+.project-name-container {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.project-name {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.vertical-line {
+  position: absolute;
+  width: 1px;
+  height: 80px;
+  /* Full viewport height */
+  background-color: rgb(200, 200, 200);
+  /* Adjust color as needed */
+  margin-left: 470px;
+  margin-top: 30px;
+
+}
+
+.project-description {
+  margin-top: 50px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.technology-logo {
+  width: 50px;
+}
+
+.project-demo {
+  margin-top: 50px;
+  margin-left: 100px;
+
+}
+
+video {
+  width: 720px;
+  height: 450px;
+  margin-top: 75px;
+  cursor: pointer;
+
+
+}
+
+.technology-logo {
+  margin-left: 20px;
+}
+
+.technologies-text {
+  font-size: 20px;
+}
+
+#fltk-logo {
+  width: 100px;
+  margin-bottom: 5px;
+}

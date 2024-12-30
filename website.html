@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Alisha K</title>
+  <link rel="stylesheet" href="styles/nav-bar.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/profile.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="styles/outro.css">
+
+  <style>
+
+  </style>
+</head>
+
+
+<body>
+  <nav>
+
+
+    <button onclick="scrollToSection()" class="projects-button">Projects</button>
+    <a href="https://github.com/alisha2131kuoch" target="_blank" rel="noopener noreferrer">
+      <button class="about-button">Github</button>
+    </a>
+    <!-- <button class="github-button">Github</button> -->
+  </nav>
+  <main>
+    <div class="profile">
+
+      <div class="profile-pic-container">
+        <img class="profile-img" src="general_images/profile-picture.png">
+      </div>
+
+      <div class="description-container">
+        <p class="desciription-intro"> Hello, I'm Alisha. <br>
+          Student at the University of Washington Bothell and aspiring software engineer.
+        </p>
+        <p class="description">
+
+          Currently, I’m actively enhancing my skills through daily personal projects. My goal is to contribute to
+          meaningful projects, so I plan on joining Web Impact which is an organization that creates pro-bono sites for
+          local businesses. I hope to
+          share the web impact projects I work on in the near future. In the meantime, feel free to check out my
+          some of my personal projects below!
+        </p>
+        <hr>
+
+      </div>
+    </div>
+
+    <div class="projects" id="target-section">
+
+      <div class="project-description-container">
+        <div class="project-name-container">
+          <p class="project-name">Background Generator</p>
+          <div class="vertical-line"></div>
+        </div>
+        <hr class="line1">
+        <p class="project-description">Developed a website that allows users to create a custom gradient background.
+        </p>
+        <!-- <p class="technologies-text">Technologies:</p> -->
+        <img title="hi" class="technology-logo" src="Technology-logos/html.svg">
+        <img class="technology-logo" src="Technology-logos/css-3.svg">
+        <img class="technology-logo" src="Technology-logos/logo-javascript.svg">
+      </div>
+
+
+      <div class="project-demo">
+        <video autoplay loop muted playsinline>
+          <source src="background-generator-movie.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+
+    </div>
+
+    <div class="projects">
+
+      <div class="project-description-container">
+        <div class="project-name-container">
+          <p class="project-name">AI News Application</p>
+          <div class="vertical-line"></div>
+        </div>
+        <hr class="line1">
+        <p class="project-description">Developed a voice-controlled news application using React, integrating voice
+          recognition to allow users to search for the latest news by topic. </p>
+        <img class="technology-logo" src="Technology-logos/html.svg">
+        <img class="technology-logo" src="Technology-logos/css-3.svg">
+        <img class="technology-logo" src="Technology-logos/logo-javascript.svg">
+        <img class="technology-logo" src="Technology-logos/ruby.svg">
+        <img class="technology-logo" src="Technology-logos/typescript.svg">
+
+      </div>
+
+
+      <div class="project-demo">
+        <video autoplay loop muted playsinline>
+          <source src="AI news application.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+
+    </div>
+
+    <div class="projects">
+
+      <div class="project-description-container">
+        <div class="project-name-container">
+          <p class="project-name">Text Editor</p>
+          <div class="vertical-line"></div>
+        </div>
+        <hr class="line1">
+        <p class="project-description">Developed a text editor that allows users to edit, save, and search text files as
+          well as manage multiple views </p>
+        <img class="technology-logo" src="Technology-logos/c.svg">
+        <img id="fltk-logo" class="technology-logo" src="Technology-logos/fltk.jpg">
+      </div>
+
+
+      <div class="project-demo">
+        <video autoplay loop muted playsinline>
+          <source src="text editor.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          <button class="arrow-button"><img src="general_images/arrow.svg"></button>
+        </video>
+      </div>
+
+
+    </div>
+
+  </main>
+
+
+  <div class="outro">
+    <hr class="outro-line">
+    <div class="outro-content">
+      <div class="w3r-dot"><!-- Comment: Defines a container for the polka dot background pattern -->
+      </div>
+      <pre class="contact-info">
+                        Alisha Kuoch 
+                        425-908-9544 
+               alishakuoch@gmail.com
+      More projects are on my <a href="https://github.com/alisha2131kuoch">github</a>
+      </pre>
+    </div>
+
+
+  </div>
+
+  <script>
+    function scrollToSection() {
+      document.getElementById("target-section").scrollIntoView({
+        behavior: "smooth"
+      });
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>
